@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>sarthak</title>
+  <style>
+    input[type=button] {
+      
+      height: 40px;     
+      margin: 5px;
+      font-size: 20px;
+      line-height: 30px;
+      border-radius: 100%;
+      background-color: yellow;
+    }
+    input[type=text] {
+      width: 205px;
+      color: black;    
+      font-size: 30px;
+      
+    }
+  </style>
+</head>
+<body>
+  <form name="sarthak" class="sarthak">
+    <table style="border-style: solid;">
+      <tr>
+        <td>
+          <input type="text" name="Input"  id="display" style="border-style: dotted;">
+          <br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" value=" 1 " onclick="sarthak.Input.value += '1'">
+          <input type="button" value=" 2 " onclick="sarthak.Input.value += '2'">
+          <input type="button" value=" 3 " onclick="sarthak.Input.value += '3'">
+           <input type="button" value=" - " onclick="sarthak.Input.value += ' - '" style="font-size: 27px;"><br>
+          <input type="button" value=" 4 " onclick="sarthak.Input.value += '4'">
+          <input type="button" value=" 5 " onclick="sarthak.Input.value += '5'">
+          <input type="button" value=" 6 " onclick="sarthak.Input.value += '6'">
+         <input type="button" value=" + " onclick="sarthak.Input.value += ' + '"><br>
+          <input type="button" value=" 7 " onclick="sarthak.Input.value += '7'">
+          <input type="button" value=" 8 " onclick="sarthak.Input.value += '8'">
+          <input type="button" value=" 9 " onclick="sarthak.Input.value += '9'">
+          <input type="button" value=" / " onclick="sarthak.Input.value += ' / '" style="font-size: 27px;"><br>
+          <input type="button" value=" c " onclick="sarthak.Input.value = ''">
+          <input type="button" value=" 0 " onclick="sarthak.Input.value += '0'">
+          <input type="button" value=" = " onclick="sarthak.Input.value = eval(sarthak.Input.value)">
+          <input type="button" value=" * " onclick="sarthak.Input.value += ' * '" style="font-size: 24px;"><br>
+          
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
